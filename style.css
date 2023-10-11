@@ -1,0 +1,20 @@
+
+div {
+    width:100px;
+    height:100px;
+    padding:10px;
+    border: 10px solid green;
+    margin: 20px;
+}
+
+.com-border-box {
+    background-color: aquamarine;
+    box-sizing: border-box;
+}
+
+.sem-border-box{
+    background-color: brown;
+}
+
+/* Largura total do elmento sem border box =  largura + padding(esquerdo) + padding(direito) + border(esquerdo) + border(direito)
+    No caso do sem-border-box a largura será =   40   +        10         +        10        +        10        +       10         = 140 pixels */
